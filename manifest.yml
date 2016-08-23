@@ -1,0 +1,8 @@
+---
+applications:
+- name: yaml2json
+  memory: 128M
+  disk: 100M
+  buildpack: nodejs_buildpack
+  env:
+    GOPACKAGENAME: yaml2json
